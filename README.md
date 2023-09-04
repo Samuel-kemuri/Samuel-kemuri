@@ -1,26 +1,12 @@
-name: Generate Datas
+# 💫 About Me:
+💬Buscando ser um Fullstack Elastico<br>💬Procurando um estagio<br>🔗https://linktr.ee/Samuelsabino013
 
-on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-  workflow_dispatch:
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Samuel-kemuri&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Samuel-kemuri&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Samuel-kemuri&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-jobs:
-  build:
-    name: Jobs to update datas
-    runs-on: ubuntu-latest
-    steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
-        with:
-          github_user_name: Samuel-Kemuri
-          svg_out_path: dist/github-contribution-grid-snake.svg
+---
+[![](https://visitcount.itsvg.in/api?id=Samuel-kemuri&icon=0&color=0)](https://visitcount.itsvg.in)
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
